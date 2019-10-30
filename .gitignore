@@ -57,3 +57,18 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Visual Studio Code
+#
+# github.com/github/gitignore/Global/VisualStudioCode.gitignore
+
+# In general ignore
+.vscode/*
+
+# But do include project specific settings
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*.code-workspace
